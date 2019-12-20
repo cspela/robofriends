@@ -3,6 +3,7 @@ import './app.css';
 import CardList from './CardList';
 import Title from './Title';
 import SearchBox from './SearchBox';
+import Scroll from './Scroll';
 // import { robots } from './robots';
 
 
@@ -38,7 +39,9 @@ class App extends Component{
 				<main className=''>
 					<Title title={'Robofriends'}/>
 					<SearchBox searchChange={this.onSearchChange}/>
-					<CardList robots={filteredRobots}/>
+					<Scroll>
+						<CardList robots={filteredRobots}/>
+					</Scroll>
 				</main>
 			);
 		}
