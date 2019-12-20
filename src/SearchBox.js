@@ -1,7 +1,6 @@
 import React from 'react';
 
 const SearchBox = ({searchChange}) => {
-	
 	return(
 		<div className='pa2 tc'>
 			<input 
@@ -14,7 +13,6 @@ const SearchBox = ({searchChange}) => {
 			/>
 		</div>
 	); 
-	// <div>{props.robots[0].name}</div>
 }
 
 

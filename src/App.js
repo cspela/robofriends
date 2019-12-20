@@ -5,15 +5,10 @@ import Title from './Title';
 import SearchBox from './SearchBox';
 import { robots } from './robots';
 
-//STATE = object = that describes your application
-//PROPS = tings that come out of state
-//A parent feed state into child component. As soon as the child component recives the state it's a property. Child can't change properties. 
-//State can change and affect our app
-//State describes our app - it usually live in parent component
 
 class App extends Component{
 	constructor(){
-		super(); //calls the constructor of component
+		super();
 		this.state = {
 			robots: robots,
 			searchfield: ''	

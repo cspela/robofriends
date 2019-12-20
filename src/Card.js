@@ -10,25 +10,7 @@ const Card = (props) => {
 				<p className='f6 fw4 gray mt0'>{email}</p>
 			</div>
 		</article>
-		//JS expression --> {}
 	)
 }
- 
-//<article className="tc mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
-   
-
-// class Card extends Component{
-// 	render(){
-// 		return(
-// 			<article>
-// 				<img src={this.props.img} alt="robot"/>
-//				<div>
-// 					<h1>{this.props.name}</h1>
-// 					<p>{this.props.email}</p>
-// 				</div>	
-//			</article>
-// 		)
-// 	}
-// }
 
 export default Card; 
